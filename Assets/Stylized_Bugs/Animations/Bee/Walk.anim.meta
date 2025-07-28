@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 16d0545c846a65a42920f38c499bb4c2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 281219
+  packageName: Stylized Bugs
+  packageVersion: 1.0
+  assetPath: Assets/Stylized_Bugs/Animations/Bee/Walk.anim
+  uploadId: 660926

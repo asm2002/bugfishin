@@ -1,0 +1,60 @@
+# Blender MTL File: 'Enviro10BuldingJoin(Render).blend'
+# Material Count: 5
+
+newmtl Body.001
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Ke D:\\3D models\\Blender\\Game_Jams\\PJP_Jam2024\\Protag\\TXT_Protag_Body.png
+map_d D:\\3D models\\Blender\\Game_Jams\\PJP_Jam2024\\Protag\\TXT_Protag_Body.png
+
+newmtl Faces.001
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Ke D:\\3D models\\Blender\\Game_Jams\\PJP_Jam2024\\Protag\\TXT_Protag_Face.png
+map_d D:\\3D models\\Blender\\Game_Jams\\PJP_Jam2024\\Protag\\TXT_Protag_Face.png
+
+newmtl MAT_Enviro_Props_Atlas
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd Props\\TXT_Enviro_Props_atlas.png
+map_d D:\\3D models\\Blender\\Vtuber\\PapaSpud\\Enviroment\\TXT_PapaSpud_Bar_Enviro.png
+
+newmtl Mat_Enviro_Atlas
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Ke TXT_Enviro_Atlas.png
+map_d TXT_Enviro_Atlas.png
+
+newmtl Mat_Enviro_Atlas.001
+Ns 359.999993
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2

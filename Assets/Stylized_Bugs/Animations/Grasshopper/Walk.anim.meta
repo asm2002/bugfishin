@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 26f241f5b98e2bd46ac1e0d779dd8cae
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 281219
+  packageName: Stylized Bugs
+  packageVersion: 1.0
+  assetPath: Assets/Stylized_Bugs/Animations/Grasshopper/Walk.anim
+  uploadId: 660926

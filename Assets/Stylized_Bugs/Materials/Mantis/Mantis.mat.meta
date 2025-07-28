@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: db90a1e344fe3d04997ec05826587ef1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 281219
+  packageName: Stylized Bugs
+  packageVersion: 1.0
+  assetPath: Assets/Stylized_Bugs/Materials/Mantis/Mantis.mat
+  uploadId: 660926

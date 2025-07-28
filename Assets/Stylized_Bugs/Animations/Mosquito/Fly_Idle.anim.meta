@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3fbcce49470975347bf2ea9a1734ddd4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 281219
+  packageName: Stylized Bugs
+  packageVersion: 1.0
+  assetPath: Assets/Stylized_Bugs/Animations/Mosquito/Fly_Idle.anim
+  uploadId: 660926

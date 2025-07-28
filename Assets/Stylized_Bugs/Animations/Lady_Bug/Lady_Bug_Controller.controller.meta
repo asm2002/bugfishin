@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7719db12a0e385d47b23618f4c1410b1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 281219
+  packageName: Stylized Bugs
+  packageVersion: 1.0
+  assetPath: Assets/Stylized_Bugs/Animations/Lady_Bug/Lady_Bug_Controller.controller
+  uploadId: 660926

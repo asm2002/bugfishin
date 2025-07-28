@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e2707cd70e13abc40858ea5292cf2a9b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 281219
+  packageName: Stylized Bugs
+  packageVersion: 1.0
+  assetPath: Assets/Stylized_Bugs/Animations/Worm/Worm_Controller.controller
+  uploadId: 660926

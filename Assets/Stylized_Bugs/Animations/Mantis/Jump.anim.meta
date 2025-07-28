@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6c0aab3764e37914cafab8a0297eac5c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 281219
+  packageName: Stylized Bugs
+  packageVersion: 1.0
+  assetPath: Assets/Stylized_Bugs/Animations/Mantis/Jump.anim
+  uploadId: 660926

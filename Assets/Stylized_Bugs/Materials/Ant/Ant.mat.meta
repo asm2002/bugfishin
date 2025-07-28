@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b533ef80441a4cd4bbab2fc5f57c8fcf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 281219
+  packageName: Stylized Bugs
+  packageVersion: 1.0
+  assetPath: Assets/Stylized_Bugs/Materials/Ant/Ant.mat
+  uploadId: 660926

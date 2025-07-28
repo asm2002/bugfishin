@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 02fd79ea4dfa1144fbb88ad0d896894c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 281219
+  packageName: Stylized Bugs
+  packageVersion: 1.0
+  assetPath: Assets/Stylized_Bugs/Animations/Grasshopper/Idle.anim
+  uploadId: 660926

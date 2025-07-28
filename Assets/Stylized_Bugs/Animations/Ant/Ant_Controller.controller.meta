@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: be29f4d3df67a1348a16faa15020309b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 281219
+  packageName: Stylized Bugs
+  packageVersion: 1.0
+  assetPath: Assets/Stylized_Bugs/Animations/Ant/Ant_Controller.controller
+  uploadId: 660926

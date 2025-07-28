@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0c3cdcbeee07a934d817e277354287b4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 281219
+  packageName: Stylized Bugs
+  packageVersion: 1.0
+  assetPath: Assets/Stylized_Bugs/Animations/Scorpion/Scorpion_Controller.controller
+  uploadId: 660926

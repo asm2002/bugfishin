@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3db1d0b98c0fd0e4f9958d5627d01062
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 281219
+  packageName: Stylized Bugs
+  packageVersion: 1.0
+  assetPath: Assets/Stylized_Bugs/Materials/Ground.mat
+  uploadId: 660926

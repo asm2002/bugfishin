@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bd5822329db2e5946a468a59656e3a76
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 281219
+  packageName: Stylized Bugs
+  packageVersion: 1.0
+  assetPath: Assets/Stylized_Bugs/Animations/Spider/Walk.anim
+  uploadId: 660926
