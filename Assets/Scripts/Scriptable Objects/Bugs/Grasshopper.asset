@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4994b475c13b710439dbb0977e73bb90, type: 3}
+  m_Name: Grasshopper
+  m_EditorClassIdentifier: 
+  bugName: Grasshopper
+  bugFlavour: It might know kung fu...
+  bugValue: 0
+  minBugSize: 1
+  maxBugSize: 10
+  minBugWeight: 1
+  maxBugWeight: 20
+  bugPrefab: {fileID: 8951049119155576442, guid: 7459914d818af0a458951613d41a4374,
+    type: 3}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4994b475c13b710439dbb0977e73bb90, type: 3}
+  m_Name: Spider
+  m_EditorClassIdentifier: 
+  bugName: Spider
+  bugFlavour: It went up the waterspout...
+  bugValue: 0
+  minBugSize: 1
+  maxBugSize: 10
+  minBugWeight: 1
+  maxBugWeight: 20
+  bugPrefab: {fileID: 2593349178922080912, guid: bc64ad6c63aa31347bc9bd68b4df2e8b,
+    type: 3}
