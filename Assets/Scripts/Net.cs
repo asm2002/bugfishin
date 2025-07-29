@@ -4,7 +4,9 @@ public class Net : MonoBehaviour
 {
 
     public CatchingMinigame minigameLogic;
-    
+
+    public PlayerStats stats;
+
     private GameObject targetBug;
 
     public void SetTargetBug(GameObject targetBug)
@@ -14,9 +16,11 @@ public class Net : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.layer == 8 && targetBug.name == other.gameObject.name)
+        if (true)
         {
+            stats.AddBug(targetBug.GetComponent<BugInstance>());
             Destroy(targetBug);
+
             minigameLogic.StopMinigame();
         }
     }
