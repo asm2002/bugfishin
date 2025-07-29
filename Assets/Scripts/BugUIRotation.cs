@@ -8,6 +8,6 @@ public class BugUIRotation : MonoBehaviour
 
     void Update()
     {
-        transform.Rotate(transform.position.normalized, rotationSpeed);
+        transform.Rotate(new Vector3(0, 1, 0), rotationSpeed);
     }
 }
