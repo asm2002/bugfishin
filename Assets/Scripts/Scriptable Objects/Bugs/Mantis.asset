@@ -21,3 +21,5 @@ MonoBehaviour:
   maxBugWeight: 20
   bugPrefab: {fileID: 6114705735022299013, guid: e994ad198c8926841903f65419632e7d,
     type: 3}
+  canJump: 1
+  canFly: 0

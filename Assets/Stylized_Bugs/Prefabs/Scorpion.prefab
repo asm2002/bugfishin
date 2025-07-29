@@ -582,6 +582,8 @@ GameObject:
   - component: {fileID: 4484850211557111270}
   - component: {fileID: 5589782751541314542}
   - component: {fileID: 5443323817258340005}
+  - component: {fileID: 7774409373020502568}
+  - component: {fileID: 8883747498614618606}
   m_Layer: 0
   m_Name: Scorpion
   m_TagString: Untagged
@@ -599,7 +601,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6184511492417016712}
@@ -650,10 +652,51 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
+--- !u!195 &7774409373020502568
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3852463541009395548}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.4
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0.2
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 0.1
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &8883747498614618606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3852463541009395548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1320ee787418ea24d8e5410c74bfd45a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseBug: {fileID: 11400000, guid: 7052025899f819744bf3b7c10ff783d2, type: 2}
+  size: 0
+  weight: 0
+  value: 0
+  navMeshAgent: {fileID: 0}
+  waypoints: []
+  m_CurrentWaypointIndex: 0
 --- !u!1 &3864232724174821965
 GameObject:
   m_ObjectHideFlags: 0
@@ -696,7 +739,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8360173249878814645}
   - component: {fileID: 9202690885060095691}
-  - component: {fileID: 5010919587062252071}
+  - component: {fileID: 8159400021374259774}
   m_Layer: 0
   m_Name: Scorpion
   m_TagString: Untagged
@@ -817,8 +860,8 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.000000014901161, y: 0.048027683, z: -0.034021184}
     m_Extent: {x: 0.13770945, y: 0.12359534, z: 0.16949882}
   m_DirtyAABB: 0
---- !u!136 &5010919587062252071
-CapsuleCollider:
+--- !u!65 &8159400021374259774
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -835,11 +878,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.16949882
-  m_Height: 0.24719068
-  m_Direction: 1
-  m_Center: {x: 0.000000014901161, y: 0.08333175, z: 0.06474094}
+  serializedVersion: 3
+  m_Size: {x: 0.2754189, y: 0.24719068, z: 0.33899763}
+  m_Center: {x: 0.000000014901161, y: 0.08333127, z: 0.06474118}
 --- !u!1 &4483630043877179639
 GameObject:
   m_ObjectHideFlags: 0

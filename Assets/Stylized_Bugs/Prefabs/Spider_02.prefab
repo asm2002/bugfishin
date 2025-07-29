@@ -203,6 +203,8 @@ GameObject:
   - component: {fileID: 2270457714936386052}
   - component: {fileID: 3328972531037082954}
   - component: {fileID: 5921465455328844308}
+  - component: {fileID: 6778967994383134108}
+  - component: {fileID: 2683096053201316734}
   m_Layer: 0
   m_Name: Spider_02
   m_TagString: Untagged
@@ -220,7 +222,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2304339899898942733}
@@ -272,10 +274,51 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
+--- !u!195 &6778967994383134108
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497897605854939326}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.4
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0.2
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 0.1
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &2683096053201316734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1497897605854939326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1320ee787418ea24d8e5410c74bfd45a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseBug: {fileID: 11400000, guid: bf07fdee1dded884e9fe11672e63573f, type: 2}
+  size: 0
+  weight: 0
+  value: 0
+  navMeshAgent: {fileID: 0}
+  waypoints: []
+  m_CurrentWaypointIndex: 0
 --- !u!1 &2485887637739772774
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,7 +456,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5693080702357372639}
   - component: {fileID: 6199379759205060879}
-  - component: {fileID: 8185796140457971923}
+  - component: {fileID: 4607513611515895899}
   m_Layer: 0
   m_Name: Spider_02
   m_TagString: Untagged
@@ -529,8 +572,8 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.021875277, y: 0.005618017, z: -0.010370553}
     m_Extent: {x: 0.08847499, y: 0.08971602, z: 0.12571359}
   m_DirtyAABB: 0
---- !u!136 &8185796140457971923
-CapsuleCollider:
+--- !u!65 &4607513611515895899
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -547,11 +590,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.12571362
-  m_Height: 0.20355333
-  m_Direction: 1
-  m_Center: {x: -0.0049994625, y: 0.059114184, z: -0.0053664595}
+  serializedVersion: 3
+  m_Size: {x: 0.25142723, y: 0.20355332, z: 0.20146424}
+  m_Center: {x: -0.0049994625, y: 0.059114423, z: -0.005366577}
 --- !u!1 &3694706407156398543
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,43 +11,55 @@ public class BugSO : ScriptableObject
     [SerializeField] private float minBugWeight;
     [SerializeField] private float maxBugWeight;
     [SerializeField] private GameObject bugPrefab;
+    [SerializeField] private bool canJump;
+    [SerializeField] private bool canFly;
 
-    private string GetName()
+    public string GetName()
     {
         return bugName;
     }
 
-    private string GetFlavour()
+    public string GetFlavour()
     {
         return bugFlavour;
     }
 
-    private float GetValue()
+    public float GetValue()
     {
         return bugValue;
     }
 
-    private float GetMinSize()
+    public float GetMinSize()
     {
         return minBugSize;
     }
 
-    private float GetMaxSize()
+    public float GetMaxSize()
     {
         return maxBugSize;
     }
 
-    private float GetMinWeight()
+    public float GetMinWeight()
     {
         return minBugWeight;
     }
 
-    private float GetMaxWeight()
+    public float GetMaxWeight()
     {
         return maxBugWeight;
     }
 
-    private GameObject GetPrefab()
+    public bool GetJump()
+    {
+        return canJump;
+    }
+
+    public bool GetFly()
+    {
+        return canFly;
+    }
+
+    public GameObject GetPrefab()
     {
         return bugPrefab;
     }

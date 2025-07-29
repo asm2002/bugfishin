@@ -424,6 +424,8 @@ GameObject:
   - component: {fileID: 3474582533171332851}
   - component: {fileID: 9174495591897827179}
   - component: {fileID: 1826217707266904944}
+  - component: {fileID: 1835832878663490458}
+  - component: {fileID: 3770228092140334880}
   m_Layer: 0
   m_Name: Bee
   m_TagString: Untagged
@@ -441,7 +443,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 2595152627090298239}
@@ -493,10 +495,51 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
+--- !u!195 &1835832878663490458
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4284017033051642953}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.4
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0.2
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 0.1
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &3770228092140334880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4284017033051642953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1320ee787418ea24d8e5410c74bfd45a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseBug: {fileID: 11400000, guid: d8766d6ea7b00ce409c11c051765e1cb, type: 2}
+  size: 0
+  weight: 0
+  value: 0
+  navMeshAgent: {fileID: 0}
+  waypoints: []
+  m_CurrentWaypointIndex: 0
 --- !u!1 &4338628030723976439
 GameObject:
   m_ObjectHideFlags: 0
@@ -1248,7 +1291,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6701787029326195135}
   - component: {fileID: 3654200154174315110}
-  - component: {fileID: 7502488972456112810}
+  - component: {fileID: 5888379267490240853}
   m_Layer: 0
   m_Name: Bee
   m_TagString: Untagged
@@ -1353,8 +1396,8 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.015642188, y: 0.0013280679, z: -0.0014250968}
     m_Extent: {x: 0.058801718, y: 0.039906032, z: 0.05189258}
   m_DirtyAABB: 0
---- !u!136 &7502488972456112810
-CapsuleCollider:
+--- !u!65 &5888379267490240853
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1371,8 +1414,6 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.06404134
-  m_Height: 0.09627418
-  m_Direction: 1
-  m_Center: {x: -0.001425095, y: 0.03379812, z: -0.0014413558}
+  serializedVersion: 3
+  m_Size: {x: 0.10378519, y: 0.096274175, z: 0.12808268}
+  m_Center: {x: -0.001425095, y: 0.033798598, z: -0.0014414769}

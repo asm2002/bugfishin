@@ -815,6 +815,8 @@ GameObject:
   - component: {fileID: 5303267508545570700}
   - component: {fileID: 975766437562592631}
   - component: {fileID: 9034956722849274772}
+  - component: {fileID: 3997702195740636585}
+  - component: {fileID: 3253041853442110844}
   m_Layer: 0
   m_Name: Mosquito
   m_TagString: Untagged
@@ -832,7 +834,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 5323285675881169029}
@@ -884,10 +886,51 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
+--- !u!195 &3997702195740636585
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4815242041531997494}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.4
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0.2
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 0.1
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &3253041853442110844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4815242041531997494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1320ee787418ea24d8e5410c74bfd45a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseBug: {fileID: 11400000, guid: abd159f969542cf46bc42b33f4ae3b3c, type: 2}
+  size: 0
+  weight: 0
+  value: 0
+  navMeshAgent: {fileID: 0}
+  waypoints: []
+  m_CurrentWaypointIndex: 0
 --- !u!1 &5927165115081340209
 GameObject:
   m_ObjectHideFlags: 0
@@ -898,7 +941,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5846932638462453981}
   - component: {fileID: 8165074656614199101}
-  - component: {fileID: 3234225094809715437}
+  - component: {fileID: 6673979890430774190}
   m_Layer: 0
   m_Name: Mosquito
   m_TagString: Untagged
@@ -1009,8 +1052,8 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.011879902, y: -0.023159957, z: -0.0000000055879354}
     m_Extent: {x: 0.1140663, y: 0.07539461, z: 0.051111594}
   m_DirtyAABB: 0
---- !u!136 &3234225094809715437
-CapsuleCollider:
+--- !u!65 &6673979890430774190
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1027,11 +1070,9 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.12393307
-  m_Height: 0.18276726
-  m_Direction: 1
-  m_Center: {x: -0.000000007004131, y: 0.06997509, z: -0.016298786}
+  serializedVersion: 3
+  m_Size: {x: 0.10222323, y: 0.18276724, z: 0.24786612}
+  m_Center: {x: -0.000000007004131, y: 0.069974616, z: -0.016298547}
 --- !u!1 &6295176121824546976
 GameObject:
   m_ObjectHideFlags: 0
