@@ -1,15 +1,26 @@
+using System;
+using System.Collections;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit.Interactables;
 
 public class CatchingMinigame : MonoBehaviour
 {
 
     private bool minigameRunning = false;
+    private Vector3 gamePos;
 
+    public GameObject playArea;
+    public GameObject net;
+    public GameObject handVisializer;
+
+    [Range(-5f, 0f)]
+    public float playAreaYOffset = -4.75f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        playArea.SetActive(false);
+        net.SetActive(false);
     }
 
     // Update is called once per frame
@@ -18,19 +29,42 @@ public class CatchingMinigame : MonoBehaviour
         if (minigameRunning) { minigame(); }
     }
 
-    void StartMinigame()
+    public void StartMinigame(Transform bugTransform)
     {
-        minigameRunning = true;
+        if (!minigameRunning)
+        {
+            gamePos = bugTransform.position;
+
+            playArea.transform.position = new Vector3(gamePos.x, gamePos.y + playAreaYOffset, gamePos.z);
+            playArea.SetActive(true);
+
+            handVisializer.SetActive(false);
+            net.SetActive(true);
+
+            minigameRunning = true;
+
+            Debug.Log("Starting");
+        }
     }
 
-    void StopMinigame()
+    public void StopMinigame()
     {
-        minigameRunning = false;
+        if (minigameRunning)
+        {
+            playArea.SetActive(false);
+
+            handVisializer.SetActive(true);
+            net.SetActive(false);
+
+            minigameRunning = false;
+
+            Debug.Log("Stopping");
+        }
     }
 
     void minigame()
     {
-
+        throw new NotImplementedException("CatchingMinigame/minigame");
     }
 
 }
